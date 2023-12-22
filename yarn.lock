@@ -1789,7 +1789,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8":
+"eslint@npm:^8.56.0":
   version: 8.56.0
   resolution: "eslint@npm:8.56.0"
   dependencies:
@@ -3197,7 +3197,7 @@ __metadata:
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
     autoprefixer: "npm:^10.0.1"
-    eslint: "npm:^8"
+    eslint: "npm:^8.56.0"
     eslint-config-next: "npm:14.0.4"
     eslint-config-prettier: "npm:^9.1.0"
     eslint-plugin-prettier: "npm:^5.1.1"
@@ -3212,6 +3212,8 @@ __metadata:
     typescript: "npm:^5"
   dependenciesMeta:
     "@ianvs/prettier-plugin-sort-imports@4.1.1":
+      unplugged: true
+    prettier-plugin-tailwindcss@0.5.9:
       unplugged: true
   languageName: unknown
   linkType: soft
